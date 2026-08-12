@@ -2,8 +2,9 @@
 article_id: CUT-07-01
 title: "Panduan dasar CNC routing, milling, engraving, dan drilling: istilah, komponen, dan cara kerja"
 slug: "cnc-router-milling-dasar"
-description: "Pembaca dapat menjelaskan tool engagement, axes, spindle, feeds/speeds as concepts, workholding, chip evacuation, toolpath, pockets/contours, material behavior, and finish, istilah yang sering tertukar, komponen, mekanisme, serta pertanyaan awal yang perlu diajukan."
-status: outline
+description: "Panduan dasar untuk memahami CNC routing, milling, engraving, dan drilling: istilah, komponen, alur kerja, perilaku material, serta pertanyaan awal sebelum menentukan pekerjaan."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-09-24"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -36,37 +37,13 @@ sources:
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
 # Panduan dasar CNC routing, milling, engraving, dan drilling: istilah, komponen, dan cara kerja
 
-## Assignment lock
+Halo, Kawan Cutting.co.id! Banyak orang melihat mesin CNC lalu langsung bertanya, “berapa putaran poros utama (spindle) dan seberapa cepat potongnya?” Padahal kesalahan paling mahal biasanya dimulai lebih awal: fungsi proses tertukar, benda kerja tidak benar-benar tertahan, atau gambar belum menjelaskan acuan ukur dan hasil akhir. Panduan ini membantu Anda membaca fondasinya lebih dahulu, bukan memilih merek, menetapkan angka parameter, atau memutuskan opsi terbaik untuk satu kasus.
 
-- **Writer task:** Expand this file into one complete article answering: “Panduan dasar CNC routing, milling, engraving, dan drilling: istilah, komponen, dan cara kerja”
-- **Reader and situation:** Pemilik, pembeli, mahasiswa, atau staf proyek yang baru mengenal subjek
-- **Reader outcome:** Pembaca dapat menjelaskan tool engagement, axes, spindle, feeds/speeds as concepts, workholding, chip evacuation, toolpath, pockets/contours, material behavior, and finish, istilah yang sering tertukar, komponen, mekanisme, serta pertanyaan awal yang perlu diajukan.
-- **Primary intent:** Memahami fondasi CNC routing, milling, engraving, dan drilling sebelum mengambil keputusan teknis
-- **Reader community:** `Cutting.co.id`
-- **Primary friendly address:** `Kawan Cutting.co.id`
-- **Natural variants:** `Sobat Cutting.co.id` and `Teman Cutting.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Tidak menentukan opsi terbaik untuk kasus tertentu; keputusan pilihan dimiliki CUT-07-02, sedangkan angka spesifikasi dimiliki CUT-07-03.
-- **Final public route:** `/artikel/cnc-router-milling-dasar.html`
-- **Appointed CMS date:** `2025-09-24` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya, kendali numerik komputer (CNC) adalah sistem yang mengubah geometri dan urutan gerak terprogram menjadi gerak pahat terhadap benda kerja. Perutean (routing), pemesinan (milling), pengukiran (engraving), dan pengeboran (drilling) berbeda terutama pada tujuan pemotongan, bentuk pahat, arah serta kedalaman pengikisan, dan cara hasilnya diperiksa. Kualitas akhir tidak ditentukan poros utama saja; ia lahir dari kecocokan material, pahat, penjepitan, jalur pahat, pengeluaran geram, dan pemeriksaan. Data material, gambar terbitan yang berlaku, manual mesin, dan persetujuan penanggung jawab dapat mengubah keputusan.
 
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Kawan Cutting.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Panduan dasar CNC routing, milling, engraving, dan drilling: istilah, komponen, dan cara kerja**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Cutting.co.id`, `Sobat Cutting.co.id`, or `Teman Cutting.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-008`
@@ -77,211 +54,87 @@ sources:
 - **Selection basis:** filename/source metadata identifies `jasa CNC` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-008]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
+![Ilustrasi jasa CNC](/wp-content/uploads/2023/01/jasa-CNC.jpg)
 
-## Evidence packet
+Gambar ini adalah aset lokal situs, bukan dokumentasi proyek tertentu.
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+## Hasil akhir dan prasyarat: tentukan apa yang harus terbukti
 
-### KR-01
+Sebelum menyebut sebuah pekerjaan “pemesinan (milling)” atau “perutean (routing)”, nyatakan dulu hasil yang ingin dibuktikan. Apakah Anda membutuhkan lubang dengan posisi tertentu, bidang yang rata, alur, relief dangkal, kontur luar, atau hanya tanda pada permukaan? Jawaban ini menentukan informasi yang perlu disiapkan dan mencegah istilah proses menggantikan kebutuhan sebenarnya.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `cutting.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
+Mesin, pahat, sistem kontrol, meja, penjepit, penghisap atau pengarah geram, serta alat ukur bekerja sebagai satu rangkaian. Poros utama (spindle) adalah penggerak putar pahat; ia bukan jaminan bahwa setiap pahat cocok untuk setiap bahan. Sumbu atau arah gerak (axes) menjelaskan arah gerak relatif yang dikendalikan, sementara jalur pahat (toolpath) adalah urutan posisi yang dihitung dari geometri. Program yang terlihat benar tetap perlu dicocokkan dengan titik nol, ukuran benda kerja, dan orientasi nyata di meja.
 
-### KR-11
+Prasyarat paling aman adalah gambar atau model dengan revisi yang jelas, identitas material dan ketebalan, area yang boleh dijepit, permukaan acuan, target bentuk, dan cara hasil akan diukur. Bila objek menjadi bagian struktur atau instalasi, katalog SNI 1729:2020 hanya menunjukkan identitas publik standarnya, bukan memberi Anda ukuran anggota, kapasitas, sambungan, atau persetujuan desain; [NEEDS TINJAUAN: minta paket gambar terbitan dan tinjauan insinyur sebelum klaim kecukupan struktural](https://pesta.bsn.go.id/produk/detail/12882-sni17292020). Pembaca yang baru mulai dapat menguji kesiapan dengan satu pertanyaan sederhana: “Bukti apa yang membuat saya menyatakan bagian ini selesai?”
 
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Stop generic fabrication guidance from becoming structural design or approval.
-- **Safe grounded facts:** Member size alone cannot establish adequacy. Loads, combinations, geometry, stability, connections, anchors/supports, existing condition, erection sequence, temporary stability, tolerances, fire/corrosion exposure, inspection, and maintenance all affect the complete system.
-- **Limits:** No span table, member recommendation, connection detail, anchor choice, load capacity, or “SNI compliant” claim may be generated from these catalog/abstract pages.
+## Tetapkan batas pekerjaan: empat nama proses, empat pertanyaan berbeda
 
-### KR-17
+Istilah yang terdengar mirip sering membuat pembelian dan instruksi kerja melenceng. Bagian ini membedakan maksud tiap proses secara konseptual agar Anda tidak meminta satu proses melakukan pekerjaan yang lain.
 
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Make maintenance content evidence-based without inventing universal schedules or promising uptime.
-- **Safe grounded facts:** Calendar-based, runtime-based, condition-based, corrective, and statutory work answer different needs. Work order history, failure coding, inspection readings, parts identity, deferred defects, tests, and release authority support trend review and planning.
-- **Limits:** Do not provide a universal interval, alarm threshold, remaining-life estimate, spares quantity, uptime saving, or restart decision. Obtain current OEM manuals, asset history, operating context, statutory requirements, and responsible-person approval.
+Perutean (routing) biasanya dipakai untuk pemotongan atau pembentukan kontur pada lembaran atau benda kerja yang relatif ringan, dengan pahat yang mengikuti jalur dua atau tiga dimensi. Pemesinan (milling) mengikis material dengan pahat berputar untuk membuat bidang, kantong, alur, atau kontur yang membutuhkan kendali lebih atas gerak dan penjepitan. Pengukiran (engraving) menandai atau mengikis area sempit untuk teks, garis, atau detail permukaan; kedalamannya tetap harus didefinisikan, bukan disimpulkan dari nama proses. Pengeboran (drilling) membuat lubang dengan gerak masuk pahat yang dominan sepanjang sumbu lubang, lalu kualitasnya dipengaruhi oleh posisi awal, pembuangan geram, dan kondisi pahat.
 
-### KR-04
+Perbedaan itu bukan kelas mutu otomatis. Mesin routing dapat memiliki sumbu dan spindle yang cukup untuk pekerjaan tertentu, sedangkan mesin milling dapat gagal bila benda kerja bergetar. Yang perlu Anda tetapkan adalah geometri yang diminta, toleransi yang benar-benar diperlukan, akses pahat, material, dan cara inspeksi. Untuk contoh antarmuka proses, rujukan internal [halaman CNC milling](/cnc/milling) dapat membantu pembaca melanjutkan istilah umum tanpa menjadikannya bukti performa proyek.
 
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
+Scope artikel ini berhenti pada fondasi dan pertanyaan awal. Matriks pemilihan proses, risiko, dan kecocokan kasus berada di artikel terpisah; rincian ukuran, toleransi, dan spesifikasi numerik juga membutuhkan paket data tersendiri. [NEEDS REVIEW: jangan menerbitkan rekomendasi proses atau angka parameter sebelum gambar, material, pahat, mesin, dan persetujuan teknis tersedia.]
 
-### KR-15
+## Komponen dan mekanisme: dari perintah menjadi geram
 
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
+Bayangkan urutannya dari model ke permukaan benda kerja. Perangkat lunak membuat geometri dan jalur pahat, pengendali menerjemahkan jalur menjadi perintah sumbu, poros utama memutar pahat, lalu pemotongan menghasilkan geram yang harus keluar dari zona potong. Pencekaman benda kerja (workholding), yaitu cara benda kerja ditahan, menjaga hubungan antara benda kerja dan jalur tersebut. Jika salah satu hubungan bergeser, permukaan yang tampak rapi belum tentu berada di lokasi yang benar.
 
-### KR-09
+Keterlibatan pahat (tool engagement) berarti seberapa jauh sisi pahat benar-benar bersentuhan dengan material pada satu gerakan. Keterlibatan terlalu ringan dapat menyapu permukaan tanpa memotong efektif; terlalu besar dapat menambah gaya, panas, dan getaran. Laju gerak (feeds) adalah gerak relatif pahat, sedangkan kecepatan putar (speeds) merujuk pada kondisi gerak yang terkait. Keduanya bukan angka universal karena dipengaruhi material, diameter dan geometri pahat, kekakuan mesin, penjepitan, serta target permukaan. Jangan menyalin angka dari bahan lain hanya karena nama pahatnya sama.
 
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
+Geram yang tidak dikeluarkan dapat kembali masuk ke zona potong, menggores permukaan atau menambah panas. Karena itu pengeluaran geram (chip evacuation), yakni pengeluaran geram dengan arah aliran, ruang alur pahat, penyedotan, atau metode lain yang sesuai, harus dipikirkan bersama jalur pahat. Penghisap debu tidak boleh dianggap sebagai pengganti pelindung mesin atau pengendalian bahaya; kewajiban keselamatan perlu mengikuti kondisi kerja dan aturan yang berlaku, termasuk [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018) dan prinsip keselamatan kerja pada [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
 
-### KR-14
+Untuk bahan pembersih, pelapis, atau bahan habis pakai, baca label serta lembar data keselamatan. [OSHA 29 CFR 1910.1200](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200) hanya contoh komunikasi bahaya dari Amerika Serikat, bukan hukum Indonesia atau batas paparan proyek.
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
+Sumbu, poros utama, pemegang pahat (collet), meja, sensor atau titik referensi, dan pelindung membentuk rantai kendali. Pada perawatan atau penyetelan, energi listrik, gerak, gravitasi, dan energi tersimpan tidak boleh diperlakukan sebagai satu sakelar saja. Pengendalian energi berbahaya memerlukan prosedur spesifik mesin dan otorisasi yang jelas; [Permenaker No. 38 Tahun 2016](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016) serta [pedoman pengendalian energi OSHA 1910.147](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147) dapat menjadi rujukan kerangka, bukan izin menyalin urutan kerja ke mesin Anda.
 
-### KR-07
+Untuk instalasi listrik, cocokkan pula lingkup [Permenaker No. 12 Tahun 2015](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015). Status dan tata cara pengawasan ketenagakerjaan perlu dicek pada [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026). Pekerjaan pemotongan atau pengelasan panas dapat merujuk [OSHA 29 CFR 1910.252](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252) sebagai pembanding Amerika Serikat saja, bukan hukum Indonesia.
 
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
+## Jalur pahat, kantong, kontur, dan kondisi akhir: baca hasil sebelum menjalankan program
 
-### KR-08
+Kesalahan umum adalah mengira jalur pahat (toolpath) hanya garis di layar. Sebenarnya ia juga memuat urutan masuk, arah lintasan, area yang diambil, sisa material, dan cara pahat keluar. Kantong (pocket) adalah area yang dikosongkan di dalam batas tertentu; kontur (contour) adalah lintasan mengikuti batas luar atau dalam. Keduanya mungkin memakai geometri mirip, tetapi risiko benda terlepas, sisa material, dan akses pengukuran dapat berbeda.
 
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
+Kondisi akhir (finish) berarti kondisi permukaan atau tepi yang diharapkan, bukan sekadar “sudah dipotong”. Bekas lintasan, geram tajam (burr), serat terangkat, perubahan warna karena panas, dan tepi yang tajam adalah observasi yang perlu dicatat; tidak satu pun otomatis membuktikan bahwa bagian telah memenuhi fungsi. Pemilihan pahat dan arah serat atau struktur material memengaruhi mekanismenya, sehingga sampel uji dan kriteria penerimaan harus disepakati sebelum produksi bila hasil permukaan penting.
 
-### KR-16
+Untuk produk yang akan dilapisi atau terpapar lingkungan, persiapan permukaan dan sistem perlindungan harus ditentukan dari proyek, bukan dari foto hasil potong. [ISO 12944-8](https://www.iso.org/standard/64838.html) membahas penyusunan spesifikasi perlindungan korosi dalam konteks yang lebih luas; halaman abstraknya tidak memberi Anda sistem lapisan, ketebalan, atau umur layanan untuk benda tertentu. Jika targetnya lubang, Anda juga perlu memeriksa diameter, posisi, sumbu, burr, dan kemampuan alat ukur. Rute internal [CNC side-hole drilling](/cnc/mesin/side-hole-drilling) berguna bila pertanyaan Anda sudah bergeser khusus ke lubang samping.
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
+Rujukan tambahan tentang sistem pelapis [ISO 12944-5](https://www.iso.org/standard/77795.html) dan [ISO 12944-4](https://www.iso.org/standard/64835.html) tetap harus dicocokkan dengan produk serta lingkungan proyek; halaman standar tidak membuktikan ketebalan atau umur layanan aset Anda.
 
-### KR-20
+## Urutan kerja yang dapat diaudit, bukan resep parameter
 
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
+Mulailah dengan mengunci identitas file, revisi, material, orientasi, titik nol, dan area penjepitan. Setelah itu cocokkan pahat dan toolpath dengan geometri yang hendak dibuat, lalu lakukan simulasi atau pemeriksaan lintasan yang tersedia pada sistem Anda. Periksa apakah ada gerakan yang melampaui batas, area yang tidak terjangkau, sisa material yang sengaja ditinggalkan, atau masuk pahat yang berbenturan dengan penjepit.
 
-### KR-13
+Sebelum mulai, pastikan benda kerja benar-benar tertahan dan pelindung, tombol berhenti, serta pengendalian akses berfungsi. Standar pengamanan mesin [OSHA 1910.212](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212) adalah rujukan asing untuk prinsip pelindung mesin, bukan aturan Indonesia yang boleh disalin mentah. Di Indonesia, penanggung jawab K3 perlu menilai bahaya aktual, tata letak, energi, debu, kebisingan, dan interaksi operator. Jangan menjalankan program hanya karena simulasi tidak menampilkan pesan kesalahan.
 
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 12944-3:2017 — official ISO abstract](https://www.iso.org/standard/64835.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Treat gates, railings, stairs, canopies, grilles, frames, furniture, and similar products as installed systems rather than decorative workshop objects.
-- **Safe grounded facts:** Function and risk can depend on use, users, geometry, edges and entrapment, load and impact, support/anchor substrate, drainage and water traps, dissimilar materials, exposure, access, operation/hardware, coating repair, erection, and future maintenance.
-- **Limits:** The cited sources do not provide application-specific dimensions, loads, anchors, child-safety rules, accessibility requirements, or local approvals. Resolve those from the actual project and current governing rules.
+Mulai dengan kondisi uji yang telah disetujui untuk memastikan titik nol, arah sumbu, dan respons proses sesuai harapan. Selama pemotongan, amati perubahan bunyi, getaran, aliran geram, panas, dan pergeseran benda kerja, tetapi jangan mendekatkan tangan atau menonaktifkan pelindung untuk “melihat lebih jelas”. Bila tanda tidak sesuai, hentikan melalui cara yang ditetapkan mesin dan lakukan diagnosis oleh orang berwenang. Parameter aktual dan urutan aman harus berasal dari manual produsen asli, prosedur tertulis, dan evaluasi lokasi; [NEEDS TINJAUAN: tetapkan metode uji dan otorisasi mulai untuk mesin yang digunakan.]
 
-### KR-10
+## Titik berhenti dan kondisi berhenti: kapan asumsi harus diganti bukti
 
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [OSHA 29 CFR 1910.212 — general machine guarding](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212).
-- **Purpose for this article:** Ensure a component-repair article considers the complete machine, energy sources, operating envelope, safeguarding, commissioning, and records.
-- **Safe grounded facts:** A repaired shaft, frame, coupling, guard, base, or attachment can alter alignment, balance, clearance, strength, vibration, containment, access, interlocks, or operating hazards. Safe servicing and safe production are related but distinct states.
-- **Limits:** Do not publish an isolation sequence, guard dimension, balance tolerance, restart authorization, or fitness claim generically. Verify current Indonesian provisions and exact OEM/site requirements.
+Titik tahan (hold point) adalah kondisi ketika pekerjaan sengaja berhenti agar bukti diperiksa sebelum langkah berikutnya. Tahan proses bila revisi gambar tidak jelas, material atau ketebalan tidak cocok, pahat tidak teridentifikasi, titik nol belum terverifikasi, penjepitan menghalangi jalur, geram menumpuk, atau hasil uji menunjukkan getaran dan panas yang tidak dijelaskan. Menunda lebih murah daripada memperbaiki kelompok produksi yang dibuat dari asumsi yang salah.
 
-## Evidence gates
+Teman Cutting.co.id, jangan menyamakan inspeksi visual dengan penerimaan teknis. Sistem inspeksi perlu menyebut metode, cakupan, teknik, personel, alat, kondisi permukaan, status verifikasi alat, laporan, dan dasar penerimaan. [ISO 17635](https://www.iso.org/standard/85705.html) menjelaskan bahwa unsur-unsur pemeriksaan perlu dipertimbangkan bersama, sedangkan [ISO 9712](https://www.iso.org/standard/75614.html) berkaitan dengan kualifikasi personel pengujian tak merusak; abstrak publiknya tidak memberi batas cacat atau angka penerimaan untuk proyek Anda.
 
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
+Untuk sambungan las, [ISO 5817:2023](https://www.iso.org/standard/80209.html), [ISO 15614-1](https://www.iso.org/standard/51792.html), dan [ISO 9606-1](https://www.iso.org/standard/54936.html) memiliki lingkup mutu atau kualifikasi yang berbeda; ketiganya bukan bukti otomatis bahwa pekerjaan CNC Anda diterima.
 
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
+Hentikan dan minta tinjauan bila komponen yang dikerjakan termasuk bagian penahan beban, pelindung keselamatan, sambungan kritis, atau antarmuka yang mengubah perilaku sistem. [NEEDS TINJAUAN: insinyur atau penanggung jawab berwenang harus menetapkan dasar penerimaan, toleransi, dan dampak perubahan sebelum bagian dipasang atau dilepas dari status karantina.]
 
-## Internal-link plan
+## Verifikasi hasil dan serah terima: simpan jejak keputusan
 
-### Existing local routes
+Hasil yang dapat dipertanggungjawabkan bukan hanya benda yang tampak selesai, melainkan hubungan antara perintah, material, alat, pemeriksaan, dan keputusan. Simpan identitas file dan revisi, material atau kelompok produksi bila dipersyaratkan, pahat yang digunakan, kondisi penjepitan, catatan kejadian, hasil ukur, foto bila memang diperlukan, serta nama dan kewenangan orang yang menerima. Paket mutu fabrikasi yang terstruktur biasanya memerlukan dokumen pengendali, identitas sambungan atau komponen, kriteria inspeksi, hasil, ketidaksesuaian, disposisi, dan penutupan; [ISO 3834-6](https://www.iso.org/standard/83335.html) membantu membingkai kebutuhan tersebut, tetapi bukan sertifikat bahwa pekerjaan CNC tertentu otomatis memenuhi mutu.
 
-- `/cnc/milling` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/cnc/milling/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/cnc/mesin/side-hole-drilling` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/cnc/mesin/lathe-router` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/cnc/mesin/jade-router` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/cnc/mesin/cnc-router-cylinder` — use only if it helps the reader's next step; verify the anchor describes the destination.
+Saat serah terima, cocokkan tiga hal: geometri terhadap gambar yang berlaku, kondisi permukaan terhadap kriteria yang disepakati, dan catatan proses terhadap identitas benda kerja. Jika ada deviasi, tulis siapa yang menilainya, apa dampaknya, dan apakah perlu pengerjaan ulang atau persetujuan penyimpangan. Jangan menghapus catatan karena hasil akhirnya terlihat baik; jejak itulah yang membantu saat bagian dirawat, diganti, atau dipersoalkan kemudian.
 
-### Planned sibling articles
+Serpihan, cairan, atau kain lap yang terkontaminasi perlu diklasifikasikan dan dikelola sesuai kegiatan serta izin; [PP No. 22 Tahun 2021](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021) adalah rujukan umum lingkungan, bukan izin untuk mencampur atau membuang limbah.
 
-These are future routes. Do not link them as live until their HTML exists.
+## Jalan pintas yang sering gagal: menyalin parameter dari internet
 
-- `CUT-07-02` → `/artikel/cnc-router-milling-pilih.html` — Cara memilih CNC routing, milling, engraving, dan drilling: matriks keputusan berdasarkan fungsi dan risiko
-- `CUT-07-03` → `/artikel/cnc-router-milling-spesifikasi.html` — Spesifikasi CNC routing, milling, engraving, dan drilling: data, ukuran, toleransi, dan pemeriksaan asumsi
+Menyalin laju gerak (feeds), kecepatan putar (speeds), atau kedalaman potong dari video dan forum memang terasa cepat. Masalahnya, angka itu lahir dari kombinasi material, pahat, kekakuan, penjepitan, pendinginan atau penyedotan, serta target kondisi akhir yang belum tentu sama. Mekanismenya sederhana: keterlibatan pahat dan pembentukan geram berubah, lalu gaya dan panas berubah; hasilnya dapat berupa getaran, patah pahat, permukaan buruk, atau ukuran meleset.
 
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+Alternatif yang lebih dapat diaudit adalah menguji asumsi satu per satu pada material yang sama, menggunakan prosedur dan pengawasan yang disetujui, lalu mencatat observasi serta hasil ukur. Jangan menjadikan artikel pengantar ini sebagai izin untuk memilih angka. Sobat Cutting.co.id, bila vendor hanya meminta “ukuran dan jumlah” tanpa bertanya material, toleransi, penjepitan, arah serat, atau hasil akhir, anggap itu sinyal untuk memperjelas paket kerja, bukan alasan menutup pertanyaan.
 
-## Hasil akhir dan prasyarat
+## Kesimpulan: fondasi CNC dimulai dari hubungan sebab-akibat
 
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Panduan dasar CNC routing, milling, engraving, dan drilling: istilah, komponen, dan cara kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Perutean, pemesinan, pengukiran, dan pengeboran adalah cara berbeda untuk mengubah material dengan pahat yang dikendalikan; fondasinya sama-sama menuntut geometri yang jelas, sumbu dan poros utama yang dipahami, keterlibatan pahat serta laju gerak/kecepatan putar yang divalidasi, pencekaman yang kaku, pengeluaran geram, jalur pahat yang diperiksa, dan kriteria kondisi akhir yang dapat diukur. Langkah berikutnya adalah kumpulkan gambar terbitan, identitas material, target ukuran atau permukaan, rute inspeksi, dan persetujuan orang yang berwenang, kemudian minta tinjauan teknis untuk kasus Anda.
 
-## Langkah 1 — tetapkan scope
-
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Panduan dasar CNC routing, milling, engraving, dan drilling: istilah, komponen, dan cara kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 2 — kumpulkan dan cocokkan bukti
-
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Panduan dasar CNC routing, milling, engraving, dan drilling: istilah, komponen, dan cara kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 3 — jalankan urutan kerja
-
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Panduan dasar CNC routing, milling, engraving, dan drilling: istilah, komponen, dan cara kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Hold point dan kondisi berhenti
-
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Panduan dasar CNC routing, milling, engraving, dan drilling: istilah, komponen, dan cara kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Verifikasi hasil dan handover
-
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Panduan dasar CNC routing, milling, engraving, dan drilling: istilah, komponen, dan cara kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Cutting.co.id!` and uses friendly `Cutting.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Aturan operasinya sederhana: jangan menjalankan program hanya karena namanya terdengar tepat atau simulasi tampak bersih. Jalankan setelah hubungan antara benda kerja, pahat, jalur, energi, dan bukti penerimaan benar-benar cocok; bila data penting belum ada, tinggalkan [NEEDS REVIEW: keputusan teknis menunggu bukti proyek dan kompetensi yang sesuai].

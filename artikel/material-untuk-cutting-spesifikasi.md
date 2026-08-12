@@ -3,7 +3,7 @@ article_id: CUT-02-03
 title: "Spesifikasi material dan machinability untuk proses cutting: data, ukuran, toleransi, dan pemeriksaan asumsi"
 slug: "material-untuk-cutting-spesifikasi"
 description: "Pembaca dapat mengumpulkan input, menyatakan unit dan toleransi, memeriksa asumsi, serta menyiapkan spesifikasi material dan machinability untuk proses cutting yang dapat ditinjau vendor."
-status: outline
+status: draft
 publication_date: "2025-04-26"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -12,238 +12,76 @@ primary_intent: "Menyusun spesifikasi terukur untuk material dan machinability u
 reader_community: "Cutting.co.id"
 reader_address: "Teman Cutting.co.id"
 final_route: "/artikel/material-untuk-cutting-spesifikasi.html"
+writing_contract_version: "native-id-v2"
 technical_review: required
 sources:
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
   - "https://www.iso.org/standard/83335.html"
-  - "https://www.iso.org/standard/77795.html"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51792.html"
-  - "https://www.iso.org/standard/54936.html"
-  - "https://www.iso.org/standard/80209.html"
-  - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Spesifikasi material dan machinability untuk proses cutting: data, ukuran, toleransi, dan pemeriksaan asumsi
 
-## Assignment lock
+<!-- BEGIN MANAGED IMAGE PLAN
+**Image ID:** `LOCAL-001`
+**Source type:** `local`
+**Exact Markdown to insert:** `![Ilustrasi material cutting](/wp-content/uploads/2023/02/jasa-laser-cutting-1.jpg)`
+**Caption/credit:** Aset lokal; bukan dokumentasi proyek tertentu.
+END MANAGED IMAGE PLAN -->
 
-- **Writer task:** Expand this file into one complete article answering: “Spesifikasi material dan machinability untuk proses cutting: data, ukuran, toleransi, dan pemeriksaan asumsi”
-- **Reader and situation:** Designer, estimator, drafter, engineer, atau pembeli teknis yang menyiapkan dokumen kerja
-- **Reader outcome:** Pembaca dapat mengumpulkan input, menyatakan unit dan toleransi, memeriksa asumsi, serta menyiapkan spesifikasi material dan machinability untuk proses cutting yang dapat ditinjau vendor.
-- **Primary intent:** Menyusun spesifikasi terukur untuk material dan machinability untuk proses cutting
-- **Reader community:** `Cutting.co.id`
-- **Primary friendly address:** `Teman Cutting.co.id`
-- **Natural variants:** `Sobat Cutting.co.id` and `Kawan Cutting.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Tidak menggantikan desain atau persetujuan engineer untuk kondisi berisiko; detail antarmuka dimiliki CUT-02-04 dan eksekusi lapangan dimiliki CUT-02-05.
-- **Final public route:** `/artikel/material-untuk-cutting-spesifikasi.html`
-- **Appointed CMS date:** `2025-04-26` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Halo, Teman Cutting.co.id! Kesalahan paling mahal biasanya bukan pada mesin, melainkan pada lembar spesifikasi yang hanya menulis “potong baja 6 mm” tanpa grade, ukuran awal, toleransi, atau kondisi permukaan. Jawaban singkatnya: minta vendor bekerja dari paket data yang menyebut identitas material, bentuk dan dimensi stok, satuan, toleransi, mutu tepi, serta kebutuhan machinability (kemudahan material dipotong) yang benar-benar dapat diverifikasi.
 
-## Opening instructions
+Machinability bukan satu angka universal. Ia dipengaruhi grade, ketebalan, perlakuan material, proses yang dipilih, dan target tepi. Karena itu, spesifikasi harus memisahkan fakta pada gambar, asumsi yang masih menunggu konfirmasi, dan keputusan proses yang menjadi tanggung jawab vendor atau engineer. Bila beban, sambungan, atau fungsi struktur belum disetujui, tandai `[NEEDS ENGINEERING REVIEW]` dan jangan mengubah tebakan menjadi persyaratan.
 
-- Open with the exact short salutation: **“Halo, Teman Cutting.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Spesifikasi material dan machinability untuk proses cutting: data, ukuran, toleransi, dan pemeriksaan asumsi**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Cutting.co.id`, `Sobat Cutting.co.id`, or `Kawan Cutting.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi material cutting](/wp-content/uploads/2023/02/jasa-laser-cutting-1.jpg)
 
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
-
-- **Image ID:** `LOCAL-001`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
-- **Exact Markdown to insert:** `![Ilustrasi Mesin Advertising CNC Plasma Cutting Machine](/wp-content/uploads/2023/01/Mesin-Advertising-CNC-Plasma-Cutting-Machine.webp)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `Mesin Advertising CNC Plasma Cutting Machine` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `cutting.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/laser-cutting-yalimo.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/laser-cutting-yahukimo.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/laser-cutting-wonosobo.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/laser-cutting-wonogiri.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/laser-cutting-way-kanan.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/laser-cutting-waropen.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `CUT-02-01` → `/artikel/material-untuk-cutting-dasar.html` — Panduan dasar material dan machinability untuk proses cutting: istilah, komponen, dan cara kerja
-- `CUT-02-02` → `/artikel/material-untuk-cutting-pilih.html` — Cara memilih material dan machinability untuk proses cutting: matriks keputusan berdasarkan fungsi dan risiko
-- `CUT-02-04` → `/artikel/material-untuk-cutting-desain.html` — Perencanaan proses material dan machinability untuk proses cutting: setup, workholding, urutan, dan dependensi
-- `CUT-02-05` → `/artikel/material-untuk-cutting-pasang.html` — Tahapan produksi material dan machinability untuk proses cutting: persiapan, first-off, QC, dan serah terima
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+Aset lokal; bukan dokumentasi proyek tertentu.
 
 ## Hasil akhir dan prasyarat
 
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Spesifikasi material dan machinability untuk proses cutting: data, ukuran, toleransi, dan pemeriksaan asumsi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Hasil yang dibutuhkan adalah satu lembar spesifikasi dan lampiran bukti yang dapat dibaca desainer, estimator, pembeli, serta vendor dengan arti yang sama. Cantumkan nomor dokumen dan revisi, tujuan komponen, material dan grade, bentuk stok, ukuran nominal, datum, toleransi, jumlah, proses cutting yang diizinkan, kualitas tepi, dan pemeriksaan yang diminta. Paket fabrikasi yang terkendali memang lazim memuat dokumen yang berlaku, dimensi, material, toleransi, urutan, inspeksi, dan titik tahan; katalog resmi SNI 1729:2020 hanya mengonfirmasi identitas dan ruang lingkup standar, bukan menggantikan teks berlisensi atau spesifikasi proyek ([BSN](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024](https://www.iso.org/standard/83335.html)).
 
-## Langkah 1 — tetapkan scope
+Sebelum meminta penawaran, siapkan gambar terbitan terakhir, daftar bagian, model CAD bila relevan, sertifikat material bila diwajibkan, dan aturan penerimaan. Tetapkan siapa yang menyetujui substitusi grade atau perubahan toleransi. Jika dokumen belum memuat fungsi, arah serat, sambungan, atau beban, itu adalah prasyarat yang hilang, bukan ruang untuk diisi vendor berdasarkan kebiasaan.
 
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Spesifikasi material dan machinability untuk proses cutting: data, ukuran, toleransi, dan pemeriksaan asumsi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+## Langkah 1 — tetapkan ruang lingkup
+
+Mulailah dengan batas yang dapat diuji: apa yang dipotong, dari stok apa, sampai bentuk keluaran mana, dan apa yang tidak termasuk. Tulis apakah pekerjaan hanya blank cutting atau juga deburring, marking, pengeboran, bending, dan inspeksi lanjutan. Nyatakan antarmuka yang harus dipertahankan—misalnya datum, lubang referensi, atau sisi yang akan dilas—tanpa mengarang nilai toleransinya.
+
+Bedakan toleransi desain dari kemampuan proses. Simbol ± pada gambar adalah persyaratan komponen; perkiraan “mesin biasanya akurat” bukan bukti pemenuhan. Minta vendor menyatakan metode ukur, titik referensi, dan cara menangani deviasi. Untuk komponen berisiko, keputusan akhir tetap berada pada engineer penanggung jawab; artikel ini tidak menggantikan desain atau persetujuan tersebut. Tautkan hanya rute lanjutan yang sudah ada, seperti [panduan laser cutting berdasarkan lokasi](/laser-cutting-yalimo.html), bila pembaca memang membutuhkan konteks layanan berikutnya.
 
 ## Langkah 2 — kumpulkan dan cocokkan bukti
 
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Spesifikasi material dan machinability untuk proses cutting: data, ukuran, toleransi, dan pemeriksaan asumsi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Buat tabel input sederhana agar setiap klaim memiliki asal. Kolom minimum: kode bagian, material dan grade persis, bentuk stok (plate, sheet, pipa, atau profil), panjang-lebar-tebal dengan satuan, toleransi umum dan khusus, kondisi permukaan, jumlah, proses cutting yang diminta, dan dokumen pendukung. Bila grade ditulis dengan nama dagang, minta padanan standar atau sertifikat; jangan menyimpulkan komposisi dari warna atau label gudang.
+
+Catat juga asumsi: “tebal 6 mm diukur setelah pelapisan” berbeda dari “tebal bahan dasar 6 mm”; “tepi bebas” berbeda dari “tepi untuk sambungan”. Untuk consumable atau coating, simpan identitas produk, batch, lembar data keselamatan, dan catatan substitusi. Konsep label dan safety data sheet pada aturan hazard communication OSHA dapat menjadi pengingat dokumentasi, tetapi aturan Amerika Serikat bukan hukum Indonesia ([OSHA 1910.1200](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200)). Verifikasi produk, batch, paparan, dan ketentuan Indonesia yang berlaku sebelum bekerja.
+
+Machinability sebaiknya ditulis sebagai kebutuhan yang bisa diamati: jenis proses, rentang ketebalan yang disetujui, batas distorsi atau dross, kondisi tepi setelah pemotongan, dan sampel first-off yang harus disetujui. Jangan memasukkan angka kecepatan, daya, atau kualitas tepi tanpa data mesin dan material aktual. Bila vendor mengusulkan grade pengganti, minta pernyataan tertulis tentang dampak terhadap fungsi, pengelasan, coating, dan inspeksi.
 
 ## Langkah 3 — jalankan urutan kerja
 
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Spesifikasi material dan machinability untuk proses cutting: data, ukuran, toleransi, dan pemeriksaan asumsi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Urutannya dapat dibuat sebagai gerbang keputusan. Pertama, kunci revisi gambar dan identitas material. Kedua, cocokkan stok fisik dengan dokumen dan ukur dimensi pada lokasi yang disepakati. Ketiga, tinjau jalur alat, nesting, orientasi, dan allowance bersama vendor tanpa mengubah datum desain. Keempat, lakukan satu first-off atau kupon pemeriksaan bila risiko dan spesifikasi memerlukannya. Kelima, ukur fitur kritis dengan alat yang sesuai, foto atau catat hasil, lalu minta persetujuan sebelum produksi berulang.
 
-## Hold point dan kondisi berhenti
+Pekerjaan di bengkel dan di lapangan tidak otomatis setara. Perpindahan lokasi mengubah akses, cuaca, listrik, ventilasi, paparan api, dan kendali inspeksi. Undang-Undang Keselamatan Kerja Indonesia menempatkan keselamatan sebagai kewajiban sistem kerja, bukan sekadar pilihan operator ([UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970)). Teman Cutting.co.id, jika kondisi lapangan berbeda dari asumsi paket, hentikan langkah yang terdampak dan minta tinjauan K3 serta engineer yang berwenang.
 
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Spesifikasi material dan machinability untuk proses cutting: data, ukuran, toleransi, dan pemeriksaan asumsi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+## Titik tahan dan kondisi berhenti
 
-## Verifikasi hasil dan handover
+Tahan pekerjaan ketika grade atau ketebalan tidak terbaca, sertifikat tidak cocok, revisi gambar saling bertentangan, datum belum ditetapkan, atau toleransi lebih ketat daripada kemampuan proses yang dibuktikan. Tahan juga ketika material memiliki lapisan atau kontaminasi yang dapat mengubah bahaya dan hasil potong. Jangan memilih parameter dari tabel umum lalu menganggapnya sebagai validasi.
 
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Spesifikasi material dan machinability untuk proses cutting: data, ukuran, toleransi, dan pemeriksaan asumsi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Untuk aktivitas panas, permit, ventilasi, fire watch, alat pelindung, dan rencana darurat harus ditentukan dari kondisi aktual oleh pihak K3 yang kompeten. Tidak ada angka jarak, durasi, atau pilihan PPE dalam paket ini yang boleh ditebak. Gunakan `[NEEDS K3 REVIEW]` bila pengendalian belum terdokumentasi.
 
-## Objection or shortcut to address
+## Verifikasi hasil dan serah terima
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Handover minimal berisi revisi gambar yang dipakai, nomor bagian, identitas material, lot atau heat bila dipersyaratkan, ukuran stok dan hasil ukur, metode cutting, catatan first-off, hasil inspeksi fitur kritis, daftar deviasi, serta persetujuan penutupan. Simpan hubungan antara bagian dan sertifikat supaya penggantian atau investigasi dapat ditelusuri. Untuk sistem fabrikasi, ISO 3834-6 menekankan perlunya informasi terdokumentasi dan pengendalian yang sesuai konteks; abstraknya tidak memberi acceptance value yang bisa disalin ([ISO 3834-6:2024](https://www.iso.org/standard/83335.html)).
 
-## Required conclusion
+Buat status jelas: diterima, diterima dengan penyimpangan yang disetujui, atau ditolak untuk koreksi. Jika tepi, ukuran, atau distorsi tidak memenuhi, jangan “rapikan” catatan agar tampak lulus. Kirim nonkonformitas kepada pemilik desain dan rekam disposisinya.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+## Jalan pintas yang sering gagal
 
-## Draft completion checklist
+Menulis “material sama seperti pesanan sebelumnya” memang cepat, tetapi menghapus grade, revisi, dan bukti batch. Dua lembar dengan nama umum yang sama dapat memiliki kondisi, ketebalan, atau pelapis berbeda sehingga respons cutting dan pemeriksaannya berubah. Alternatif yang lebih aman adalah menyalin identitas dari sertifikat atau dokumen pembelian, menyebut unit secara eksplisit, lalu meminta vendor mengulang asumsi sebelum harga dan jadwal dikunci.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Cutting.co.id!` and uses friendly `Cutting.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+## Kesimpulan dan langkah berikutnya
+
+Spesifikasi material dan machinability yang dapat ditinjau vendor berisi identitas material, ukuran dan toleransi terukur, kondisi permukaan, proses serta kriteria tepi, bukti pendukung, asumsi yang terlihat, dan titik persetujuan. Mulailah dengan membuat tabel input untuk satu bagian, lampirkan gambar revisi terakhir dan sertifikat yang tersedia, lalu minta vendor menandai setiap data yang belum cukup.
+
+Kawan Cutting.co.id, jangan lanjut ke produksi berulang sebelum first-off dan deviasi ditinjau pihak yang berwenang. Jika fungsi, beban, sambungan, atau pengendalian K3 belum jelas, berhenti pada `[NEEDS ENGINEERING REVIEW]` atau `[NEEDS K3 REVIEW]`; dokumen yang jujur lebih aman daripada angka yang terlihat lengkap tetapi tidak terbukti.

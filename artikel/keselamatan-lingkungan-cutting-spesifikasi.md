@@ -3,7 +3,8 @@ article_id: CUT-12-03
 title: "Spesifikasi keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan: data, ukuran, toleransi, dan pemeriksaan asumsi"
 slug: "keselamatan-lingkungan-cutting-spesifikasi"
 description: "Pembaca dapat mengumpulkan input, menyatakan unit dan toleransi, memeriksa asumsi, serta menyiapkan spesifikasi keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan yang dapat ditinjau vendor."
-status: outline
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2026-02-26"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -20,53 +21,21 @@ sources:
   - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
   - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
-  - "https://www.iso.org/standard/77795.html"
   - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
   - "https://www.iso.org/standard/51792.html"
   - "https://www.iso.org/standard/54936.html"
-  - "https://www.iso.org/standard/80209.html"
-  - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
   - "https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212"
-  - "https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016"
-  - "https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
 # Spesifikasi keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan: data, ukuran, toleransi, dan pemeriksaan asumsi
 
-## Assignment lock
+Halo, Sobat Cutting.co.id! Spesifikasi yang bisa ditinjau pemasok bukan daftar APD atau kalimat “aman dan ramah lingkungan”. Isinya harus berupa kondisi kerja, sumber bahaya, ukuran yang hendak dikendalikan, satuan, toleransi, cara verifikasi, dan siapa yang menyetujui. Jika salah satu data kunci belum ada, tulis sebagai asumsi terbuka—jangan mengisinya dengan angka kebiasaan bengkel.
 
-- **Writer task:** Expand this file into one complete article answering: “Spesifikasi keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan: data, ukuran, toleransi, dan pemeriksaan asumsi”
-- **Reader and situation:** Designer, estimator, drafter, engineer, atau pembeli teknis yang menyiapkan dokumen kerja
-- **Reader outcome:** Pembaca dapat mengumpulkan input, menyatakan unit dan toleransi, memeriksa asumsi, serta menyiapkan spesifikasi keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan yang dapat ditinjau vendor.
-- **Primary intent:** Menyusun spesifikasi terukur untuk keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan
-- **Reader community:** `Cutting.co.id`
-- **Primary friendly address:** `Sobat Cutting.co.id`
-- **Natural variants:** `Kawan Cutting.co.id` and `Teman Cutting.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Tidak menggantikan desain atau persetujuan engineer untuk kondisi berisiko; detail antarmuka dimiliki CUT-12-04 dan eksekusi lapangan dimiliki CUT-12-05.
-- **Final public route:** `/artikel/keselamatan-lingkungan-cutting-spesifikasi.html`
-- **Appointed CMS date:** `2026-02-26` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Mulailah dengan lembar basis desain: identitas mesin dan proses pemotongan, material serta bahan habis pakai, kapasitas dan jam operasi, tata letak, penghuni sekitar, sumber energi, bahan mudah terbakar, jalur limbah, dan batas lingkungan. Setiap nilai harus memiliki sumber (gambar, nameplate, lembar data keselamatan, pengukuran, atau persyaratan proyek). Kerangka pengadaan/fabrikasi yang terkendali juga memerlukan dokumen acuan, dimensi, antarmuka, toleransi, inspeksi, dan titik tahan; katalog SNI 1729:2020 dan ringkasan ISO 3834-6 dapat menjadi rujukan untuk struktur paket, bukan pengganti teks standar berlisensi ([BSN](https://pesta.bsn.go.id/produk/detail/12882-sni17292020); [ISO 3834-6](https://www.iso.org/standard/83335.html)).
 
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Sobat Cutting.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Spesifikasi keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan: data, ukuran, toleransi, dan pemeriksaan asumsi**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Cutting.co.id`, `Kawan Cutting.co.id`, or `Teman Cutting.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -77,206 +46,67 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Mesin Advertising CNC Plasma Cutting Machine` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+![Ilustrasi Mesin Advertising CNC Plasma Cutting Machine](/wp-content/uploads/2023/01/Mesin-Advertising-CNC-Plasma-Cutting-Machine.webp)
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+*Aset lokal situs; gambar ini bukan dokumentasi proyek tertentu.*
 
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `cutting.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [OSHA 29 CFR 1910.212 — general machine guarding](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212).
-- **Purpose for this article:** Ensure a component-repair article considers the complete machine, energy sources, operating envelope, safeguarding, commissioning, and records.
-- **Safe grounded facts:** A repaired shaft, frame, coupling, guard, base, or attachment can alter alignment, balance, clearance, strength, vibration, containment, access, interlocks, or operating hazards. Safe servicing and safe production are related but distinct states.
-- **Limits:** Do not publish an isolation sequence, guard dimension, balance tolerance, restart authorization, or fitness claim generically. Verify current Indonesian provisions and exact OEM/site requirements.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Make maintenance content evidence-based without inventing universal schedules or promising uptime.
-- **Safe grounded facts:** Calendar-based, runtime-based, condition-based, corrective, and statutory work answer different needs. Work order history, failure coding, inspection readings, parts identity, deferred defects, tests, and release authority support trend review and planning.
-- **Limits:** Do not provide a universal interval, alarm threshold, remaining-life estimate, spares quantity, uptime saving, or restart decision. Obtain current OEM manuals, asset history, operating context, statutory requirements, and responsible-person approval.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Anchor workshop-safety content in current Indonesian law and prevent reliance on pre-July-2026 copies of sector K3 regulations.
-- **Safe grounded facts:** The 2026 record identifies partial revocations affecting, among others, workplace environment, electrical work, pressure vessels and tanks, powered/production machinery, lifting equipment, work at height, and confined spaces. A legacy regulation may still be in force while some provisions no longer are.
-- **Limits:** This register does not perform legal consolidation or interpret amended clauses. Recheck BPK and official Kemnaker text at outline approval and obtain competent Indonesian legal/K3 review for prescriptive claims.
-
-### KR-12
-
-- **Original sources:** [Permenaker No. 37 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016), [Permenaker No. 11 Tahun 2023 tentang K3 di Ruang Terbatas — BPK](https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Create a hard boundary around pressure-retaining equipment, hazardous contents, entry, isolation, testing, and statutory inspection.
-- **Safe grounded facts:** Vessel/tank/pipe work can combine stored pressure, hazardous residue, oxygen deficiency/enrichment, toxic or flammable atmosphere, engulfment, hot work, line breaking, cleaning, ventilation, rescue, and integrity risks. “Empty” or “not operating” does not by itself establish a safe condition.
-- **Limits:** Do not provide a pressure design, repair detail, entry procedure, gas-test value, test pressure, interval, or return-to-service approval from this file. Specialist owner, K3, engineering, inspection, and legal review are required.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/cnc/mesin/advertising/plasma-cutting` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/cnc/mesin/advertising/plasma-cutting/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/laser-cutting-yalimo.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/laser-cutting-yahukimo.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/laser-cutting-wonosobo.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/laser-cutting-wonogiri.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `CUT-12-01` → `/artikel/keselamatan-lingkungan-cutting-dasar.html` — Panduan dasar keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan: istilah, komponen, dan cara kerja
-- `CUT-12-02` → `/artikel/keselamatan-lingkungan-cutting-pilih.html` — Cara memilih keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan: matriks keputusan berdasarkan fungsi dan risiko
-- `CUT-12-04` → `/artikel/keselamatan-lingkungan-cutting-desain.html` — Perencanaan proses keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan: setup, workholding, urutan, dan dependensi
-- `CUT-12-05` → `/artikel/keselamatan-lingkungan-cutting-pasang.html` — Tahapan produksi keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan: persiapan, first-off, QC, dan serah terima
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
 
 ## Hasil akhir dan prasyarat
 
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Spesifikasi keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan: data, ukuran, toleransi, dan pemeriksaan asumsi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Hasil akhirnya adalah spesifikasi yang dapat dibaca pemasok, diperiksa tim K3, dan disetujui pemilik mesin. Buat satu matriks dengan kolom: bahaya, sumber data, parameter, unit, nilai target atau rentang, toleransi, metode pemeriksaan, frekuensi, rekaman, dan penanggung jawab. Pisahkan “wajib menurut aturan”, “persyaratan proyek”, dan “asumsi yang menunggu konfirmasi”. UU No. 1 Tahun 1970 memberi dasar umum keselamatan kerja, sedangkan aturan lingkungan kerja perlu dibaca dalam versi resmi dan konteks tempat kerja ([UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970); [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018)).
 
-## Langkah 1 — tetapkan scope
+Prasyarat minimum: gambar tata letak dan aliran material, manual pabrikan peralatan asli (OEM), daftar bahan kimia beserta lembar data keselamatan (SDS) (safety data sheet atau lembar data keselamatan), catatan inspeksi, hasil pengukuran lingkungan bila tersedia, dan jalur persetujuan. Tanpa data itu, spesifikasi hanya boleh berstatus konsep. **[NEEDS: nilai target paparan, ventilasi, kebisingan, proteksi kebakaran, dan prosedur darurat belum ditetapkan.]**
 
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Spesifikasi keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan: data, ukuran, toleransi, dan pemeriksaan asumsi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+## Langkah 1 — tetapkan batas kerja
+
+Nyatakan apakah dokumen mencakup mesin, area kerja, utilitas, pekerjaan panas, penyimpanan bahan, dan pengelolaan limbah. Tandai antarmuka yang bukan bagian halaman ini: detail mekanik dan kelistrikan harus dikunci di gambar serta manual pabrikan peralatan asli (OEM); desain antarmuka mengikuti paket CUT-12-04; pelaksanaan lapangan mengikuti CUT-12-05. Perubahan dari fabrikasi di workshop ke pekerjaan di lokasi dapat mengubah akses, cuaca, pasokan listrik, dispersi asap proses, paparan api, lalu lintas, dan akses inspeksi. Karena itu, keputusan “dikerjakan di site agar mudah” memerlukan penilaian ulang dan persetujuan K3, bukan sekadar tambahan APD ([OSHA 29 CFR 1910.252](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252)).
+
+Buat batas fisik dan operasional: titik masuk bahan, zona gerak, area operator, jalur evakuasi, lokasi tabung/gas bila ada, titik pengumpulan sisa potongan, serta siapa yang boleh mengubah setelan. Nyatakan juga yang tidak dikerjakan—misalnya desain struktur, penentuan kapasitas ekstraksi, klasifikasi limbah, atau izin kerja. Sobat Cutting.co.id, batas ini mencegah pemasok menganggap kalimat umum sebagai izin untuk memilih ukuran kritis sendiri.
+
+Jika tahap berikutnya adalah mencocokkan nama dan konfigurasi mesin, gunakan [rujukan mesin advertising plasma cutting](/cnc/mesin/advertising/plasma-cutting) sebagai titik orientasi, bukan sebagai bukti bahwa spesifikasi keselamatan proyek ini sudah terpenuhi; parameter teknis tetap harus berasal dari pabrikan peralatan asli (OEM) dan survei aktual.
 
 ## Langkah 2 — kumpulkan dan cocokkan bukti
 
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Spesifikasi keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan: data, ukuran, toleransi, dan pemeriksaan asumsi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Gunakan tabel pencocokan berikut sebelum meminta penawaran:
+
+| Kelompok | Data yang dikumpulkan | Cara menyatakan ukuran dan toleransi |
+|---|---|---|
+| Mesin dan energi | model, nomor seri, daya, sumber listrik/tekanan, mode operasi, titik isolasi | satuan nameplate; deviasi dan kondisi penerimaan ditetapkan engineer/pabrikan peralatan asli (OEM) |
+| Fume, debu, bising | proses, material, bahan habis pakai, titik timbul, durasi, hasil ukur, lokasi pekerja | tulis metode alat, posisi, waktu sampling, ketidakpastian; jangan menyalin angka generik |
+| Kebakaran | pekerjaan panas, sumber nyala, bahan mudah terbakar, deteksi, pemadaman, jalur evakuasi | nyatakan cakupan area dan skenario; jarak/waktu/kapasitas menunggu kajian K3 |
+| Bahan dan lembar data keselamatan (SDS) | nama produk, pemasok, kelompok produksi, label, lembar data keselamatan (SDS) versi dan tanggal | cocokkan identitas fisik dengan dokumen; perubahan produk memicu peninjauan |
+| Limbah | jenis, kontaminasi, wadah, pelabelan, penyimpanan, pengangkut/penerima | karakterisasi dan jalur berizin; jangan mengasumsikan semua logam aman didaur ulang |
+
+Untuk bahan kimia, catat identitas produk dan lembar data keselamatan (SDS) yang berlaku. Konsep label dan lembar data pada OSHA 1910.1200 berguna sebagai pengingat dokumentasi, tetapi bukan hukum Indonesia; verifikasi persyaratan lokal dan produk aktual ([OSHA Hazard Communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200)). Untuk limbah, PP No. 22 Tahun 2021 menuntut pendekatan berbasis identitas, kontaminasi, penyimpanan, pengangkutan, penerima, dan rekaman; klasifikasi final harus ditetapkan pihak berwenang berdasarkan karakterisasi aktual ([PP No. 22 Tahun 2021](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021)).
+
+Kaitkan setiap parameter dengan bukti. Jika pemasok menulis “filter HEPA”, minta model, kapasitas, kehilangan tekanan, metode uji, interval penggantian, dan kriteria penerimaan yang disetujui. Jangan mengubah nama komponen menjadi klaim kinerja. Untuk sambungan las atau rangka, bedakan kualifikasi prosedur, prosedur pengelasan tertulis (WPS) produksi, kualifikasi juru las, inspeksi, dan penerimaan akhir; ringkasan ISO 15614-1, ISO 9606-1, dan ISO 3834-6 tidak memuat rentang kualifikasi atau nilai uji, sehingga teks standar dan spesifikasi proyek tetap diperlukan ([ISO 15614-1](https://www.iso.org/standard/51792.html); [ISO 9606-1](https://www.iso.org/standard/54936.html)).
 
 ## Langkah 3 — jalankan urutan kerja
 
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Spesifikasi keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan: data, ukuran, toleransi, dan pemeriksaan asumsi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Urutan konseptualnya adalah: (1) identifikasi bahaya dan energi; (2) hilangkan atau ganti sumber bila layak; (3) tetapkan pengendalian rekayasa seperti pelindung mesin, pengunci kendali, penangkapan asap proses/debu, isolasi akustik, dan proteksi kebakaran; (4) susun kendali administratif, izin, pelatihan, kerapian area, serta rencana darurat; (5) tentukan APD yang sesuai; (6) uji dan dokumentasikan sebelum operasi. Pendekatan hierarki pengendalian dan komunikasi bahaya harus ditinjau pada kondisi nyata, bukan berhenti di daftar APD ([Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018); [OSHA 1910.1200](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200)).
 
-## Hold point dan kondisi berhenti
+Untuk mesin, petakan semua energi dan titik isolasi. Prosedur penguncian dan pelabelan (penguncian dan pelabelan energi) harus spesifik aset, diverifikasi orang berwenang, dan selaras dengan ketentuan Indonesia serta pabrikan peralatan asli (OEM); contoh OSHA 1910.147 dan 1910.212 hanya referensi perbandingan, bukan izin mengimpor angka atau urutan tanpa kajian ([Permenaker No. 38 Tahun 2016](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016); [OSHA 1910.147](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147); [OSHA 1910.212](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212)).
 
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Spesifikasi keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan: data, ukuran, toleransi, dan pemeriksaan asumsi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Untuk asap proses, debu, bising, dan panas, tetapkan lokasi sampling, kondisi beban, instrumen, dan kriteria lulus bersama ahli K3. Jangan menulis laju alir, ambang paparan, atau durasi penjagaan kebakaran generik karena nilainya bergantung proses, bahan, ventilasi, dan aturan terkini. Teman Cutting.co.id, bila kondisi berubah (material baru, nozzle berbeda, produksi meningkat, atau pekerjaan pindah lokasi), ulangi penilaian dan revisi spesifikasi.
 
-## Verifikasi hasil dan handover
+## Titik tahan dan kondisi berhenti
 
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Spesifikasi keselamatan mesin, fume, kebakaran, debu, bising, limbah, dan kendali lingkungan: data, ukuran, toleransi, dan pemeriksaan asumsi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Hentikan penerbitan untuk konstruksi atau pembelian jika identitas mesin, material, lembar data keselamatan (SDS), klasifikasi limbah, jalur evakuasi, atau sumber energi belum terkonfirmasi. Hold point juga berlaku ketika hasil ukur melewati kriteria yang disepakati, pelindung mesin/pengunci kendali belum diverifikasi, alat ukur tidak memiliki status kalibrasi, atau pekerjaan panas berada dekat bahan mudah terbakar. **[NEEDS: tetapkan nilai ambang, metode uji, otoritas pelepasan, dan skenario penyelamatan untuk proyek ini.]**
 
-## Objection or shortcut to address
+Perubahan regulasi harus diperiksa di sumber resmi; Permenaker No. 11 Tahun 2026 mencatat pencabutan sebagian ketentuan sektoral, sehingga salinan lama tidak boleh diperlakukan otomatis masih berlaku ([Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026)). Untuk ruang terbatas, bejana, atau pipa bertekanan, tambahkan peninjauan spesialis; kondisi “kosong” tidak membuktikan bebas tekanan, residu, atau atmosfer berbahaya.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+## Verifikasi hasil dan serah terima
 
-## Required conclusion
+Sebelum serah terima, minta paket rekaman: matriks bahaya dan asumsi; gambar revisi; daftar mesin/energi; lembar data keselamatan (SDS) dan daftar kelompok produksi; sertifikat material/bahan habis pakai; prosedur pengelasan tertulis (WPS) dan kualifikasi personel bila ada pengelasan; hasil inspeksi dan pengukuran lingkungan; uji pelindung mesin, pengunci kendali, alarm, ventilasi, dan pemadaman; log limbah beserta penerima; pelatihan, izin kerja, serta daftar deviasi dan penutupan. Setiap rekaman harus menunjuk tanggal, alat, kondisi uji, pemeriksa, hasil, dan keputusan.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Gunakan status sederhana: **diterima**, **diterima dengan tindakan**, atau **ditahan**. “Diterima dengan tindakan” harus memiliki pemilik dan tenggat; tidak boleh menjadi izin operasi diam-diam. Jika ada perbaikan las, penilaian harus menghubungkan prosedur, juru las, inspeksi, nonkonformansi, dan otoritas disposisi—bukan hanya foto hasil akhir.
 
-## Draft completion checklist
+## Jalan pintas yang sering gagal
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Cutting.co.id!` and uses friendly `Cutting.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Jalan pintas paling umum adalah menyalin spesifikasi proyek lama lalu mengganti nama mesin. Cara ini gagal ketika material, energi, tata letak, penghuni, atau jalur limbah berbeda; bahkan pemindahan pekerjaan ke lapangan dapat mengubah paparan dan pengendalian. Alternatif yang lebih andal adalah mengunci data aktual, menandai asumsi, meminta bukti pemasok, dan menjadwalkan titik tahan (hold point) untuk setiap parameter yang belum dapat diverifikasi.
+
+## Kesimpulan
+
+Spesifikasi keselamatan dan lingkungan yang siap ditinjau pemasok menyebut objek, bahaya, parameter, unit, toleransi, metode pemeriksaan, rekaman, dan otoritas keputusan. Kumpulkan bukti aktual, bedakan persyaratan hukum dari asumsi proyek, lalu tahan pekerjaan ketika nilai kritis atau prosedur belum disahkan. Langkah berikutnya adalah mengirim matriks tersebut kepada engineer dan penanggung jawab K3 untuk menetapkan kriteria lulus serta menyetujui dokumen penerbitan. Aturan operasinya: tidak ada angka keselamatan, klasifikasi limbah, atau keputusan kembali beroperasi yang boleh diisi berdasarkan kebiasaan atau tebakan.

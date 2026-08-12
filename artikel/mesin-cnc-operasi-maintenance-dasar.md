@@ -2,8 +2,9 @@
 article_id: CUT-16-01
 title: "Panduan dasar pemilihan mesin CNC, sistem operasi, perawatan, dan keputusan upgrade: istilah, komponen, dan cara kerja"
 slug: "mesin-cnc-operasi-maintenance-dasar"
-description: "Pembaca dapat menjelaskan work envelope, process/source/spindle, axes, control, accuracy evidence, utilization, utilities, extraction, support, spares, preventive maintenance, retrofit, and total ownership, istilah yang sering tertukar, komponen, mekanisme, serta pertanyaan awal yang perlu diajukan."
-status: outline
+description: "Panduan dasar untuk memahami ruang kerja, proses, sumbu, kontrol, bukti akurasi, utilitas, perawatan, retrofit, dan biaya kepemilikan mesin CNC sebelum mengambil keputusan teknis."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2026-06-28"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -16,52 +17,21 @@ technical_review: required
 sources:
   - "https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/83335.html"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
-  - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212"
+  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910.212"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Panduan dasar pemilihan mesin CNC, sistem operasi, perawatan, dan keputusan upgrade: istilah, komponen, dan cara kerja
 
-## Assignment lock
+Halo, Teman Cutting.co.id! Membeli atau merawat mesin CNC sering terasa seperti memilih dari daftar angka: ukuran meja, daya spindle, jumlah sumbu, dan kecepatan. Padahal angka yang tampak besar belum tentu cocok dengan benda kerja, alur program, utilitas, atau kemampuan tim Anda. Kesalahan paling mahal biasanya terjadi ketika orang menyamakan ruang gerak dengan kapasitas produksi, atau menganggap mesin baru otomatis bebas masalah.
 
-- **Writer task:** Expand this file into one complete article answering: “Panduan dasar pemilihan mesin CNC, sistem operasi, perawatan, dan keputusan upgrade: istilah, komponen, dan cara kerja”
-- **Reader and situation:** Pemilik, pembeli, mahasiswa, atau staf proyek yang baru mengenal subjek
-- **Reader outcome:** Pembaca dapat menjelaskan work envelope, process/source/spindle, axes, control, accuracy evidence, utilization, utilities, extraction, support, spares, preventive maintenance, retrofit, and total ownership, istilah yang sering tertukar, komponen, mekanisme, serta pertanyaan awal yang perlu diajukan.
-- **Primary intent:** Memahami fondasi pemilihan mesin CNC, sistem operasi, perawatan, dan keputusan upgrade sebelum mengambil keputusan teknis
-- **Reader community:** `Cutting.co.id`
-- **Primary friendly address:** `Teman Cutting.co.id`
-- **Natural variants:** `Sobat Cutting.co.id` and `Kawan Cutting.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Tidak menentukan opsi terbaik untuk kasus tertentu; keputusan pilihan dimiliki CUT-16-02, sedangkan angka spesifikasi dimiliki CUT-16-03.
-- **Final public route:** `/artikel/mesin-cnc-operasi-maintenance-dasar.html`
-- **Appointed CMS date:** `2026-06-28` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: mulai dari pekerjaan dan kondisi nyata, lalu cocokkan komponen, sistem kendali, bukti akurasi, utilitas, dukungan, dan rencana perawatan. Keputusan upgrade baru masuk akal setelah riwayat gangguan, beban kerja, suku cadang, dan risiko keselamatan tercatat. Angka spesifikasi dan pilihan model tertentu tetap memerlukan data proyek serta tinjauan teknis; artikel ini memberi fondasi agar pertanyaan awal Anda tidak salah arah.
 
-## Opening instructions
+![Ilustrasi mesin CNC](/wp-content/uploads/2023/01/mesin-CNC.webp)
 
-- Open with the exact short salutation: **“Halo, Teman Cutting.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Panduan dasar pemilihan mesin CNC, sistem operasi, perawatan, dan keputusan upgrade: istilah, komponen, dan cara kerja**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Cutting.co.id`, `Sobat Cutting.co.id`, or `Kawan Cutting.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+*Aset lokal proyek; bukan dokumentasi proyek tertentu.*
 
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
-
 - **Image ID:** `LOCAL-011`
 - **Source type:** `local`
 - **Placement:** after the opening has answered the main question, before the first detailed H2
@@ -70,176 +40,50 @@ sources:
 - **Selection basis:** filename/source metadata identifies `mesin CNC` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-011]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+## Tentukan pekerjaan dan tahap siklus hidup mesin
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Sebelum membahas merek, tulis benda apa yang akan dibuat, materialnya, ukuran maksimum, jumlah per periode, dan tingkat pengulangan yang dibutuhkan. Langkah ini mencegah istilah “mesin CNC” dipakai untuk pekerjaan yang sebenarnya memerlukan router, milling, bubut, atau konfigurasi gabungan. Tanyakan juga apakah mesin sedang dipilih, dipakai, diperbaiki, atau hendak di-upgrade karena setiap tahap memiliki bukti dan keputusan berbeda.
 
-### KR-01
+Istilah *work envelope* berarti ruang gerak efektif alat terhadap benda kerja, bukan ukuran luar mesin. Ruang itu dibatasi perjalanan sumbu, tinggi alat, fixture (penjepit), dan kebutuhan akses. Mesin dengan meja besar dapat kehilangan ruang efektif ketika fixture dan alat mengambil sebagian area. Uji dengan gambar benda kerja terpanjang, posisi penjepitan, dan jalur pahat; bila ada bagian yang keluar dari ruang aman, spesifikasi tersebut belum memenuhi pekerjaan.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `cutting.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
+Pisahkan pula *process*, *source*, dan *spindle*. Proses adalah cara pemotongan atau pengerjaan; source adalah sumber program atau data yang mengirim perintah; spindle adalah penggerak putar alat pada mesin yang menggunakannya. Ketiganya saling terkait, tetapi bukan sinonim. File program yang benar tidak menyelamatkan spindle yang tidak cocok, dan spindle kuat tidak menjamin hasil jika proses serta penjepitan keliru. Minta pemasok menunjukkan alur dari file, kontrol, gerakan sumbu, sampai benda keluar, bukan sekadar brosur.
 
-### KR-17
+Pada tahap baru, catat siapa yang berwenang mengubah program, menyetujui percobaan, dan melepas mesin untuk produksi. Untuk mesin terpasang, pertanyaan berubah menjadi: apa yang berubah sejak baseline, komponen apa yang aus, dan apakah dukungan pabrikan masih tersedia? Batas ini penting karena keputusan pembelian khusus dan angka spesifikasi dibahas di tahap evaluasi berikutnya, bukan ditetapkan di sini.
 
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Make maintenance content evidence-based without inventing universal schedules or promising uptime.
-- **Safe grounded facts:** Calendar-based, runtime-based, condition-based, corrective, and statutory work answer different needs. Work order history, failure coding, inspection readings, parts identity, deferred defects, tests, and release authority support trend review and planning.
-- **Limits:** Do not provide a universal interval, alarm threshold, remaining-life estimate, spares quantity, uptime saving, or restart decision. Obtain current OEM manuals, asset history, operating context, statutory requirements, and responsible-person approval.
+## Pahami sumbu, kontrol, dan bukti akurasi
 
-### KR-07
+Pembaca sering mendengar tiga sumbu lalu langsung menyimpulkan kemampuan mesin. Sumbu adalah arah gerak terkoordinasi; jumlahnya baru bermakna jika dikaitkan dengan geometri benda, orientasi alat, dan cara program dibuat. Kontrol adalah komputer dan perangkat lunak yang menerjemahkan program menjadi gerak. Periksa format file, cara koreksi alat, penyimpanan program, alarm, pemulihan setelah listrik padam, dan siapa yang boleh mengubah parameter.
 
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
+Akurasi bukan janji yang cukup ditulis sebagai satu angka. Bedakan akurasi posisi, pengulangan, kekakuan, kondisi termal, alat potong, dan kemampuan pengukuran. Minta bukti yang menjelaskan metode uji, kondisi mesin, tanggal, dan batas yang diuji. Tanpa itu, angka promosi hanya menjadi asumsi. Lakukan satu benda uji yang mewakili pekerjaan Anda, ukur dengan alat yang sesuai, lalu simpan hasil serta kondisi pengujiannya. Jika bukti belum tersedia, tandai [NEEDS TECHNICAL REVIEW: metode dan hasil uji akurasi mesin belum diverifikasi].
 
-### KR-08
+Kontrol juga menentukan keterlacakan. Pastikan versi program, revisi gambar, koreksi alat, dan hasil pemeriksaan dapat ditautkan ke pekerjaan tertentu. Saat ada cacat, Anda perlu membedakan kesalahan file, offset, fixture, alat tumpul, atau gerak mesin. Itulah mekanisme mengapa pencatatan lebih berguna daripada menebak komponen mana yang salah.
 
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
+## Hubungkan utilitas, extraction, dan dukungan dengan operasi harian
 
-### KR-14
+Mesin tidak bekerja sendirian. Utilitas mencakup listrik, udara tekan, pendingin, jaringan, ruang, dan pembuangan serpihan atau asap sesuai proses. *Extraction* berarti penangkapan dan pembuangan debu, kabut, atau asap dari sumbernya; kapasitas dan rancangan tepatnya harus mengikuti mesin, material, serta kondisi tempat. Jangan menyimpulkan cukup hanya karena ruangan terasa tidak berbau.
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
+Buat daftar kebutuhan aktual dari manual OEM, survei lokasi, dan penanggung jawab fasilitas. Catat tegangan, titik sambung, fondasi, jalur material, ventilasi, drainase, dan akses servis. Perubahan utilitas dapat mengubah mutu dan keselamatan sekaligus. Untuk pengamanan mesin, pengendalian energi berbahaya memerlukan prosedur spesifik aset dan orang berwenang; prinsip penguncian dan pelabelan dibahas dalam [OSHA 29 CFR 1910.147](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147) sebagai rujukan umum, tetapi penerapannya harus disesuaikan dengan aturan serta kondisi Indonesia.
 
-### KR-16
+Dukungan dan *spares* (suku cadang) juga bagian dari sistem. Tanyakan waktu respons, dokumentasi, daftar komponen yang sudah tidak diproduksi, jalur eskalasi, dan siapa yang menguasai kode alarm. Jangan menjanjikan ketersediaan atau penghematan tanpa bukti kontrak dan riwayat. [NEEDS TECHNICAL REVIEW: kecukupan utilitas, pengaman, dan dukungan pemasok perlu disetujui penanggung jawab fasilitas.] Untuk membandingkan langkah komersial setelah fondasi ini jelas, Anda dapat melihat contoh rute produk seperti [daftar mesin CNC untuk Yalimo](/jual-mesin-cnc-yalimo.html) dan [daftar mesin CNC untuk Yahukimo](/jual-mesin-cnc-yahukimo.html); keduanya bukan pengganti pemeriksaan lokasi.
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
+## Jadikan perawatan sebagai alur keputusan, bukan kalender kosong
 
-### KR-20
+Perawatan preventif berarti pekerjaan yang direncanakan sebelum gagal, tetapi jadwalnya tidak universal. Ada pekerjaan berbasis kalender, jam operasi, kondisi, korektif setelah gangguan, dan kewajiban pemeriksaan tertentu. Manual OEM, riwayat aset, lingkungan, beban, serta aturan yang berlaku menentukan kombinasi yang masuk akal. [Permenaker No. 38 Tahun 2016](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016) memberi kerangka keselamatan pesawat tenaga dan produksi; gunakan dokumen resmi dan penanggung jawab K3 untuk menerjemahkan kewajiban ke mesin spesifik.
 
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
+Mulai dari inspeksi sederhana yang aman: kebersihan area kerja, kondisi kabel dan selang, pelindung, pelumasan sesuai manual, alarm, suara atau getaran yang berubah, serta keausan alat. Catat tanggal, jam operasi bila tersedia, komponen, temuan, tindakan, suku cadang, hasil uji, dan otoritas yang mengizinkan kembali beroperasi. Jangan menetapkan ambang getaran, interval pelumasan, atau keputusan restart dari artikel umum. Jika energi belum diisolasi dan diverifikasi, hentikan pekerjaan servis dan ikuti prosedur pengendalian energi yang disetujui.
 
-### KR-10
+Data tersebut membentuk baseline. Misalnya, hasil potongan mulai bergeser setelah perubahan material; riwayat dapat menunjukkan fixture longgar, alat tumpul, atau suhu yang berubah sebelum Anda mengganti kontrol. Perawatan berbasis kondisi berarti bertindak karena bukti, bukan karena rasa khawatir. Sebaliknya, temuan yang menyentuh guard, interlock, atau sumber energi harus diperlakukan sebagai isu keselamatan, bukan sekadar gangguan mutu. [OSHA 29 CFR 1910.212](https://www.osha.gov/laws-regs/regulations/standardnumber/1910.212) dapat menjadi rujukan umum tentang pengamanan titik bahaya mesin, sedangkan persetujuan akhir mengikuti aturan dan penilaian kompeten di lokasi.
 
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [OSHA 29 CFR 1910.212 — general machine guarding](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212).
-- **Purpose for this article:** Ensure a component-repair article considers the complete machine, energy sources, operating envelope, safeguarding, commissioning, and records.
-- **Safe grounded facts:** A repaired shaft, frame, coupling, guard, base, or attachment can alter alignment, balance, clearance, strength, vibration, containment, access, interlocks, or operating hazards. Safe servicing and safe production are related but distinct states.
-- **Limits:** Do not publish an isolation sequence, guard dimension, balance tolerance, restart authorization, or fitness claim generically. Verify current Indonesian provisions and exact OEM/site requirements.
+## Nilai retrofit dan total kepemilikan dengan bukti
 
-## Evidence gates
+*Retrofit* adalah penggantian atau penambahan bagian pada mesin yang sudah ada, misalnya kontrol, penggerak, sensor, atau sistem ekstraksi. Ia dapat mengatasi keterbatasan tertentu, tetapi perubahan satu komponen bisa memengaruhi integrasi, interlock, program, akurasi, dokumentasi, dan suku cadang. Karena itu jangan membandingkan harga modul dengan harga mesin baru saja.
 
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
+Hitung total kepemilikan secara sederhana: pembelian atau retrofit, instalasi, utilitas, alat dan fixture, pelatihan, perawatan, suku cadang, waktu henti, pengukuran, serta pelepasan akhir jika relevan. Gunakan data Anda sendiri; jangan memasukkan janji uptime, umur pakai, atau penghematan tanpa catatan yang dapat diaudit. Pilihan upgrade baru layak dibawa ke keputusan ketika masalahnya terdefinisi, opsi telah diuji secara aman, dan ada rencana penerimaan setelah perubahan.
 
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
+## Pertanyaan awal dan aturan operasi
 
-## Internal-link plan
+Sobat Cutting.co.id, sebelum meminta penawaran atau menyetujui pekerjaan servis, bawa satu lembar pertanyaan: pekerjaan dan material apa, ruang efektif berapa, proses dan sumber program mana, siapa pengendali parameter, bukti akurasi apa, utilitas serta extraction bagaimana, suku cadang dan dukungan siapa, catatan perawatan apa, dan otoritas mana yang menyetujui perubahan atau restart. Jawaban harus menyebut dokumen, kondisi, dan pemilik keputusan, bukan hanya kata “bisa”.
 
-### Existing local routes
-
-- `/jual-mesin-cnc-yalimo.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-mesin-cnc-yahukimo.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-mesin-cnc-wonosobo.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-mesin-cnc-wonogiri.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-mesin-cnc-way-kanan.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-mesin-cnc-waropen.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `CUT-16-02` → `/artikel/mesin-cnc-operasi-maintenance-pilih.html` — Cara memilih pemilihan mesin CNC, sistem operasi, perawatan, dan keputusan upgrade: matriks keputusan berdasarkan fungsi dan risiko
-- `CUT-16-03` → `/artikel/mesin-cnc-operasi-maintenance-spesifikasi.html` — Spesifikasi pemilihan mesin CNC, sistem operasi, perawatan, dan keputusan upgrade: data, ukuran, toleransi, dan pemeriksaan asumsi
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Tentukan objek, kondisi, dan tahap siklus hidup
-
-- **Purpose:** Jelaskan apa yang dikelola dan bukti kondisi awalnya.
-- **Tie back to this article:** Keep the explanation specific to “Panduan dasar pemilihan mesin CNC, sistem operasi, perawatan, dan keputusan upgrade: istilah, komponen, dan cara kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Mekanisme perubahan atau penurunan kinerja
-
-- **Purpose:** Hubungkan penggunaan, lingkungan, material/sistem, dan waktu tanpa mengarang umur layanan.
-- **Tie back to this article:** Keep the explanation specific to “Panduan dasar pemilihan mesin CNC, sistem operasi, perawatan, dan keputusan upgrade: istilah, komponen, dan cara kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Inspeksi dan data yang perlu dicatat
-
-- **Purpose:** Buat baseline, indikator, foto/ukur, riwayat, dan batas pengamatan.
-- **Tie back to this article:** Keep the explanation specific to “Panduan dasar pemilihan mesin CNC, sistem operasi, perawatan, dan keputusan upgrade: istilah, komponen, dan cara kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Pilihan perawatan atau intervensi
-
-- **Purpose:** Bandingkan pemantauan, perawatan, perbaikan, penguatan, penggantian, atau penghentian.
-- **Tie back to this article:** Keep the explanation specific to “Panduan dasar pemilihan mesin CNC, sistem operasi, perawatan, dan keputusan upgrade: istilah, komponen, dan cara kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara menentukan prioritas
-
-- **Purpose:** Gunakan konsekuensi, urgensi, akses, biaya siklus hidup, dan otoritas keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Panduan dasar pemilihan mesin CNC, sistem operasi, perawatan, dan keputusan upgrade: istilah, komponen, dan cara kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Rekaman, handover, dan pemicu pemeriksaan ulang
-
-- **Purpose:** Tentukan bukti yang harus bertahan untuk pemilik dan peninjau berikutnya.
-- **Tie back to this article:** Keep the explanation specific to “Panduan dasar pemilihan mesin CNC, sistem operasi, perawatan, dan keputusan upgrade: istilah, komponen, dan cara kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Cutting.co.id!` and uses friendly `Cutting.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Jadi, fondasi pemilihan mesin CNC adalah mencocokkan pekerjaan dengan ruang gerak, proses, sumbu, kontrol, utilitas, bukti akurasi, dan kemampuan dukungan; fondasi perawatan adalah baseline, isolasi energi, catatan, serta tinjauan kompeten; fondasi upgrade adalah masalah terukur dan uji penerimaan. Kawan Cutting.co.id, langkah berikutnya adalah mengumpulkan manual OEM, gambar kerja, data beban, riwayat gangguan, dan survei utilitas untuk ditinjau oleh tim teknis serta K3. Aturan operasinya sederhana: bila bukti belum cukup untuk menyatakan mesin aman, mampu, atau siap diubah, jangan mengisinya dengan asumsi—tahan keputusan dan minta verifikasi yang tepat.

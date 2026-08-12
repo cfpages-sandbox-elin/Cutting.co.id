@@ -2,8 +2,9 @@
 article_id: CUT-04-07
 title: "Checklist inspeksi dan pengendalian berkala toleransi, kerf, kualitas tepi, akurasi, dan acceptance"
 slug: "toleransi-kerf-kualitas-cutting-rawat"
-description: "Pembaca dapat membuat baseline, memantau input, alat, mesin, lingkungan, dan output, menentukan tanda peringatan, serta mencatat inspeksi berkala toleransi, kerf, kualitas tepi, akurasi, dan acceptance."
-status: outline
+description: "Pembaca dapat membuat patokan awal, memantau input, alat, mesin, lingkungan, dan output, menentukan tanda peringatan, serta mencatat inspeksi berkala toleransi, kerf, kualitas tepi, akurasi, dan acceptance."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-07-16"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -17,51 +18,24 @@ sources:
   - "https://www.iso.org/standard/85705.html"
   - "https://www.iso.org/standard/75614.html"
   - "https://www.iso.org/standard/80209.html"
-  - "https://www.iso.org/standard/51792.html"
-  - "https://www.iso.org/standard/54936.html"
   - "https://www.iso.org/standard/83335.html"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Checklist inspeksi dan pengendalian berkala toleransi, kerf, kualitas tepi, akurasi, dan acceptance
 
-## Assignment lock
+Halo, Sobat Cutting.co.id! Inspeksi berkala bukan sekadar mengukur satu potongan lalu menyatakan mesin baik. Pengendalian yang dapat dipertanggungjawabkan dimulai dari baseline yang disetujui, mencatat perubahan input dan kondisi mesin, memeriksa keluaran dengan metode yang sesuai, lalu membandingkannya dengan acceptance criteria (kriteria penerimaan) pada dokumen proyek. Tanpa urutan itu, angka kerf atau ukuran yang tampak rapi mudah disalahartikan sebagai bukti mutu.
 
-- **Writer task:** Expand this file into one complete article answering: “Checklist inspeksi dan pengendalian berkala toleransi, kerf, kualitas tepi, akurasi, dan acceptance”
-- **Reader and situation:** Pemilik, penghuni, operator, facility manager, atau petugas pemeliharaan
-- **Reader outcome:** Pembaca dapat membuat baseline, memantau input, alat, mesin, lingkungan, dan output, menentukan tanda peringatan, serta mencatat inspeksi berkala toleransi, kerf, kualitas tepi, akurasi, dan acceptance.
-- **Primary intent:** Menginspeksi dan mengendalikan toleransi, kerf, kualitas tepi, akurasi, dan acceptance secara berkala
-- **Reader community:** `Cutting.co.id`
-- **Primary friendly address:** `Sobat Cutting.co.id`
-- **Natural variants:** `Kawan Cutting.co.id` and `Teman Cutting.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Tidak menangani kerusakan aktif yang memerlukan diagnosis; itu dimiliki CUT-04-06. Tidak mengulang prosedur setup dan produksi awal yang dimiliki CUT-04-05.
-- **Final public route:** `/artikel/toleransi-kerf-kualitas-cutting-rawat.html`
-- **Appointed CMS date:** `2025-07-16` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: buat lembar kontrol untuk setiap kombinasi material–proses–program, tetapkan siapa yang berwenang menerima hasil, dan ulangi pemeriksaan ketika ada perubahan material, alat, program, lingkungan, atau pekerjaan. Metode, cakupan, personel, alat, kondisi permukaan, status kalibrasi/verifikasi, pelaporan, dan dasar penerimaan adalah bukti yang terpisah; ringkasan ISO 17635 dan ISO 9712 menekankan pemisahan ini, tanpa memberikan nilai toleransi proyek Anda ([ISO 17635](https://www.iso.org/standard/85705.html), [ISO 9712](https://www.iso.org/standard/75614.html)).
 
-## Opening instructions
+![Ilustrasi Mesin Advertising CNC Plasma Cutting Machine](/wp-content/uploads/2023/01/Mesin-Advertising-CNC-Plasma-Cutting-Machine.webp)
 
-- Open with the exact short salutation: **“Halo, Sobat Cutting.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Checklist inspeksi dan pengendalian berkala toleransi, kerf, kualitas tepi, akurasi, dan acceptance**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Cutting.co.id`, `Kawan Cutting.co.id`, or `Teman Cutting.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+*Aset lokal situs; gambar ini bukan dokumentasi proyek tertentu.*
 
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -72,184 +46,58 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Mesin Advertising CNC Plasma Cutting Machine` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `cutting.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/laser-cutting-yalimo.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/laser-cutting-yahukimo.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/laser-cutting-wonosobo.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/laser-cutting-wonogiri.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/laser-cutting-way-kanan.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/laser-cutting-waropen.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `CUT-04-05` → `/artikel/toleransi-kerf-kualitas-cutting-pasang.html` — Tahapan produksi toleransi, kerf, kualitas tepi, akurasi, dan acceptance: persiapan, first-off, QC, dan serah terima
-- `CUT-04-06` → `/artikel/toleransi-kerf-kualitas-cutting-masalah.html` — Masalah pada toleransi, kerf, kualitas tepi, akurasi, dan acceptance: gejala, akar penyebab, dan keputusan perbaikan
-- `CUT-04-08` → `/artikel/toleransi-kerf-kualitas-cutting-pengadaan.html` — Brief, penawaran, dan serah terima toleransi, kerf, kualitas tepi, akurasi, dan acceptance: cara membandingkan vendor
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+END MANAGED IMAGE PLAN -->
 
 ## Tentukan objek, kondisi, dan tahap siklus hidup
 
-- **Purpose:** Jelaskan apa yang dikelola dan bukti kondisi awalnya.
-- **Tie back to this article:** Keep the explanation specific to “Checklist inspeksi dan pengendalian berkala toleransi, kerf, kualitas tepi, akurasi, dan acceptance”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mulailah dengan mengidentifikasi objek yang benar-benar diperiksa: lembar atau profil material, nomor program, mesin dan kepala potong, alat ukur, serta tahapnya—first-off, produksi berjalan, setelah perawatan, atau sebelum serah terima. Catat nomor gambar, revisi, datum, satuan, dan permukaan referensi. Acceptance bukan opini operator; ia harus merujuk pada spesifikasi atau paket fabrikasi yang berlaku. Untuk pekerjaan struktur, katalog BSN hanya menegaskan identitas SNI 1729:2020; klausul, kombinasi, toleransi, dan nilai penerimaan tetap harus diambil dari teks berlisensi dan dokumen proyek ([SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020)).
+
+Tetapkan kondisi awal yang bisa diulang: material dan batch, ketebalan, jenis proses, nozzle atau consumable, program, kecepatan yang tercatat pada resep kerja, serta status kebersihan dan penjepitan. Jangan mengisi angka toleransi dari kebiasaan bengkel. [NEEDS PROJECT ACCEPTANCE BASIS: nilai toleransi, kerf, kualitas tepi, akurasi, dan pihak penerima belum tersedia dalam paket ini.]
 
 ## Mekanisme perubahan atau penurunan kinerja
 
-- **Purpose:** Hubungkan penggunaan, lingkungan, material/sistem, dan waktu tanpa mengarang umur layanan.
-- **Tie back to this article:** Keep the explanation specific to “Checklist inspeksi dan pengendalian berkala toleransi, kerf, kualitas tepi, akurasi, dan acceptance”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Perubahan kecil pada input dapat menggeser hasil: batch material berbeda, permukaan berlapis, alat aus, fokus atau alignment berubah, meja tidak rata, suplai listrik atau gas tidak stabil, dan ventilasi atau suhu ruang berubah. Kerf (lebar material yang hilang akibat proses potong) perlu dipantau sebagai gejala proses, bukan angka tunggal yang berlaku untuk semua kombinasi. Bandingkan hasil dengan baseline pada material dan program yang sama; bila kombinasi berubah, buat baseline baru dan tandai keterbandingannya.
+
+Pisahkan gejala dari diagnosis. Tepi kasar dapat muncul bersama perubahan panas, gerak, atau kondisi material, tetapi satu foto tidak membuktikan akar penyebab. Kawan Cutting.co.id, hentikan klaim “mesin pasti bermasalah” sampai pemeriksaan teknik, alat, dan program memiliki bukti yang cukup. Bila penyimpangan aktif membutuhkan diagnosis, masuklah ke prosedur perbaikan dan review kompeten, bukan memperluas checklist pemeliharaan ini.
 
 ## Inspeksi dan data yang perlu dicatat
 
-- **Purpose:** Buat baseline, indikator, foto/ukur, riwayat, dan batas pengamatan.
-- **Tie back to this article:** Keep the explanation specific to “Checklist inspeksi dan pengendalian berkala toleransi, kerf, kualitas tepi, akurasi, dan acceptance”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Gunakan satu baris per benda kerja atau sampel, dengan kolom minimum berikut:
+
+| Kelompok | Yang dicatat | Keputusan bila menyimpang |
+|---|---|---|
+| Identitas | gambar/revisi, nomor benda, material–batch, program, operator, waktu | karantina bila identitas tidak tertelusur |
+| Input & alat | ketebalan, consumable/nozzle, kondisi penjepitan, alat ukur dan ID kalibrasi/verifikasi | ulangi setup atau minta verifikasi alat |
+| Proses & lingkungan | parameter resep yang disetujui, perubahan, suhu/ventilasi relevan, alarm | tahan produksi dan tinjau perubahan |
+| Output | dimensi terhadap datum, kerf, sudut/ketegaklurusan, burr, dross, perubahan warna, retak atau deformasi yang terlihat | pisahkan, catat nonkonformitas, jangan dirapikan diam-diam |
+| Acceptance | kriteria, hasil, pemeriksa, waktu, disposition, bukti closeout | hanya otoritas yang ditunjuk boleh menerima atau menolak |
+
+Tentukan teknik ukur sebelum mengukur: titik, arah, resolusi, temperatur, cara menahan benda, dan aturan pembulatan. Untuk pengujian tak merusak (NDT), rekaman harus memisahkan metode, cakupan, teknik, personel, peralatan, kondisi permukaan, dan status kalibrasi/verifikasi; abstrak ISO 17635 juga memperingatkan bahwa level penerimaan NDT tidak otomatis sama dengan level mutu ISO 5817 ([ISO 5817](https://www.iso.org/standard/80209.html)). Jika kompetensi personel atau prosedur tertulis dipersyaratkan, catat identitas dan ruang lingkupnya—jangan menyamakan kartu welder, spesifikasi prosedur pengelasan (WPS), dan acceptance hasil jadi.
 
 ## Pilihan perawatan atau intervensi
 
-- **Purpose:** Bandingkan pemantauan, perawatan, perbaikan, penguatan, penggantian, atau penghentian.
-- **Tie back to this article:** Keep the explanation specific to “Checklist inspeksi dan pengendalian berkala toleransi, kerf, kualitas tepi, akurasi, dan acceptance”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Pilih respons berdasarkan bukti, bukan refleks mengubah parameter. Pemantauan cukup bila hasil masih dalam kriteria dan trennya stabil. Jadwalkan pembersihan, penggantian consumable, pemeriksaan penjajaran, atau verifikasi alat bila tren mendekati batas. Karantina dan lakukan review teknis bila hasil melewati batas, identitas material tidak jelas, atau alat ukur berstatus kedaluwarsa. Perbaikan, penguatan, penggantian, dan pelepasan produk memerlukan disposition tertulis serta pemeriksaan ulang sesuai prosedur proyek.
+
+Simpan jejak perubahan: siapa mengubah program, apa yang diganti, sampel pembanding, dan hasil first-off sesudah perubahan. Sistem mutu pengelasan membedakan kualifikasi prosedur, WPS produksi, kualifikasi operator, kondisi peralatan, kontrol consumable, inspeksi, dan acceptance; ringkasan [ISO 3834-6](https://www.iso.org/standard/83335.html) berguna sebagai pengingat struktur rekaman, bukan sumber nilai parameter.
 
 ## Cara menentukan prioritas
 
-- **Purpose:** Gunakan konsekuensi, urgensi, akses, biaya siklus hidup, dan otoritas keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Checklist inspeksi dan pengendalian berkala toleransi, kerf, kualitas tepi, akurasi, dan acceptance”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Urutkan temuan dengan empat pertanyaan: apakah menyentuh keselamatan atau fungsi kritis, seberapa cepat dampaknya membesar, apakah produk masih dapat diakses tanpa risiko tambahan, dan siapa yang memiliki otoritas keputusan. Temuan yang memengaruhi sambungan struktural, komponen bertekanan, atau interface pemasangan tidak boleh diprioritaskan hanya berdasarkan biaya rework. Untuk pekerjaan di area berpenghuni atau lokasi lapangan, perubahan akses, cuaca, listrik, asap, api, dan lalu lintas dapat mengubah kontrol risiko; UU No. 1 Tahun 1970 dan Permenaker No. 5 Tahun 2018 menjadi rujukan kerangka K3, tetapi kontrol spesifik tetap memerlukan penilaian lokasi dan petugas K3 ([UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018)).
 
-## Rekaman, handover, dan pemicu pemeriksaan ulang
+Gunakan status sederhana: **terima**, **tahan untuk review**, atau **tolak/ulang inspeksi**. Status “terima bersyarat” hanya boleh dipakai bila prosedur dan otoritas proyek memang mengizinkannya. Teman Cutting.co.id, jangan mengubah temuan menjadi “aman” hanya karena bagian tepi sudah digerinda; fungsi, dimensi, dan traceability tetap harus dibuktikan.
 
-- **Purpose:** Tentukan bukti yang harus bertahan untuk pemilik dan peninjau berikutnya.
-- **Tie back to this article:** Keep the explanation specific to “Checklist inspeksi dan pengendalian berkala toleransi, kerf, kualitas tepi, akurasi, dan acceptance”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+## Rekaman, serah terima, dan pemicu pemeriksaan ulang
 
-## Objection or shortcut to address
+Pada handover, serahkan daftar benda dan revisi, baseline, lembar ukur, foto atau sketsa lokasi ukur bila diperlukan, ID alat ukur, catatan perubahan, nonkonformitas, keputusan disposition, serta bukti penutupan. Tulis tanggal, zona waktu bila pekerjaan lintas lokasi, nama pemeriksa, dan tanda tangan atau persetujuan digital yang dapat ditelusuri. Jangan menghapus data awal saat hasil diperbaiki; simpan hubungan antara temuan, tindakan, dan verifikasi ulang.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Jadwalkan pemeriksaan ulang ketika material, batch, program, consumable, alat ukur, mesin, lingkungan, operator, atau lokasi berubah; setelah alarm atau perawatan yang memengaruhi proses; dan sebelum acceptance akhir bila dokumen proyek mewajibkannya. Interval kalender hanyalah pemicu administratif sampai pemilik proses menetapkan interval berbasis risiko dan riwayat yang sah.
 
-## Required conclusion
+Jika inspeksi dilakukan oleh tim berbeda di lokasi berbeda, samakan format rekaman dan verifikasi ruang lingkup pekerjaan sebelum meminta penawaran atau jadwal. Halaman [laser cutting Wonosobo](/laser-cutting-wonosobo.html) dan [laser cutting Wonogiri](/laser-cutting-wonogiri.html) dapat menjadi titik awal untuk memastikan konteks wilayah, tetapi keduanya tidak menggantikan spesifikasi dan acceptance criteria proyek Anda.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+## Jalan pintas yang sering gagal
 
-## Draft completion checklist
+Jalan pintas paling umum adalah mengukur satu dimensi pada satu sampel, lalu menyalin hasilnya ke seluruh lot. Cara ini gagal bila kondisi input, alat, atau program berbeda, dan tidak membuktikan kerf, kualitas tepi, atau acceptance. Alternatif yang lebih andal adalah menetapkan sampel dan cakupan pada prosedur proyek, menjaga identitas setiap sampel, memeriksa tren, serta meminta review kompeten ketika kriteria atau metode belum jelas.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Cutting.co.id!` and uses friendly `Cutting.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+## Kesimpulan
+
+Checklist berkala yang baik menghubungkan baseline, input, alat, mesin, lingkungan, output, dan otoritas acceptance dalam satu jejak rekaman. Mulai dari dokumen revisi dan kriteria penerimaan yang berlaku, lakukan pengukuran dengan teknik yang konsisten, lalu tahan hasil yang identitas atau buktinya tidak lengkap. Sebelum produksi berikutnya, minta [NEEDS TECHNICAL REVIEW: project-specific acceptance criteria, inspection extent, measurement method, and disposition authority] ditetapkan secara tertulis. Aturan operasinya sederhana: tidak ada angka tanpa datum dan metode, tidak ada acceptance tanpa bukti tertelusur, dan tidak ada keputusan keselamatan tanpa peninjauan pihak berwenang.
